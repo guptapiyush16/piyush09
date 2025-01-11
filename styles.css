@@ -1,5 +1,5 @@
 *{
-    border: #9290C3;
+    border: #fdfdfd;
 }
 body {
     background-image: url(back3.jpeg);
@@ -50,6 +50,10 @@ nav ul li a {
 } */
 
 .about-container {
+    background-image: url(1c.jpg);
+    background-size: cover;
+    /* background-position: center; */
+    /* color: white; */
     display: flex; /* Align photo and about section horizontally */
     align-items: center; /* Center items vertically */
     /* background-color: #72584777  */
@@ -66,10 +70,11 @@ nav ul li a {
 }
 
 .photo img {
-    width: 150px; /* Set a consistent width for the photo */
-    height: 150px; /* Set a consistent height for the photo */
-    border-radius: 50%; /* Optional: Make the photo circular */
-    margin-right: 2rem; /* Add spacing between the photo and text */
+    margin-top: 5rem;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 2rem;
 }
 
 /* .photo img {
@@ -86,7 +91,9 @@ nav ul li a {
 
 
 .about {
-    flex: 1; /* Make the about section take up the remaining space */
+    flex: 1;
+    margin-left: 5rem;
+    color: #00f492;
 }
 
 .about h2 {
@@ -103,7 +110,7 @@ nav ul li a {
 
 .project-item {
     /* background-color: #8174A0; */
-    border: #9290C3;
+    border: #ffffff;
     border-width: 1cm;
     margin: 1rem 0;
     padding: 1rem;
