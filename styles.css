@@ -110,6 +110,10 @@ nav ul li a {
 
 .project-item {
     /* background-color: #8174A0; */
+    border-style: solid;
+    border-width: #ffffff;
+    border-width:2px;
+    border-radius: 10px;
     border: #ffffff;
     border-width: 1cm;
     margin: 1rem 0;
