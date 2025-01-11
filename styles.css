@@ -1,0 +1,183 @@
+*{
+    border: #9290C3;
+}
+body {
+    background-image: url(back3.jpeg);
+    background-size: cover; /* Ensures the image covers the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* background-color: #1B1A55; */
+    color: white;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* .about-container {
+    display: flex;
+    padding: 2rem;
+    gap: 2rem;
+    align-items: flex-start;
+} */
+
+.about-container {
+    display: flex; /* Align photo and about section horizontally */
+    align-items: center; /* Center items vertically */
+    /* background-color: #72584777  */
+    padding: 2rem; /* Add spacing inside the container */
+    border-radius: 10px; /* Optional: Add rounded corners */
+    margin: 1rem 0; /* Add spacing around the container */
+}
+
+.photo {
+    width: 40%;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.photo img {
+    width: 150px; /* Set a consistent width for the photo */
+    height: 150px; /* Set a consistent height for the photo */
+    border-radius: 50%; /* Optional: Make the photo circular */
+    margin-right: 2rem; /* Add spacing between the photo and text */
+}
+
+/* .photo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+} */
+
+.about-content {
+    width: 60%;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+
+.about {
+    flex: 1; /* Make the about section take up the remaining space */
+}
+
+.about h2 {
+    margin-bottom: 1rem;
+}
+
+.about p {
+    line-height: 1.6; /* Improve readability of the text */
+}
+
+/* .projects-container {
+    padding: 1rem;
+} */
+
+.project-item {
+    /* background-color: #8174A0; */
+    border: #9290C3;
+    border-width: 1cm;
+    margin: 1rem 0;
+    padding: 1rem;
+    /* cursor: pointer; */
+    /* transition: background-color 0.3s ease; */
+}
+
+/* .project-item:hover {
+    background-color: #ccc;
+} */
+
+#project-details {
+    display: none;
+    padding: 1rem;
+    /* background-color: #f4f4f4; */
+    border-radius: 5px;
+}
+
+.skills ul {
+    list-style: none;
+    padding: none;
+}
+
+/* .skills ul li ul{
+    padding-top: 1rem;
+} */
+
+.experience-photos {
+    margin-top: 1rem;
+}
+
+.blog-container {
+    padding: 2rem;
+}
+
+/* .slideshow {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+}
+
+.slideshow img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+} */
+
+.slideshow {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.slideshow img {
+    width: 300px; /* Set a uniform width */
+    height: 200px; /* Set a uniform height */
+    object-fit: cover; /* Ensures the image fills the dimensions without distortion */
+    border-radius: 5px; /* Optional: rounded corners */
+    flex-shrink: 0; /* Prevent images from shrinking */
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+}
+
+.contact ul li {
+    margin: 0.5rem 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
