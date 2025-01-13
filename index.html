@@ -1,241 +1,206 @@
-*{
-    border: #fdfdfd;
-}
-body {
-    background-image: url(back3.jpeg);
-    background-size: cover; /* Ensures the image covers the entire background */
-    background-position: center; /* Centers the image */
-    background-repeat: no-repeat;
-    font-family: Arial, sans-serif;
-    margin-left: 5px;
-    margin-right: 5px;
-    padding: 0;
-    /* background-color: #1B1A55; */
-    color: white;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <!-- <h1>ok, here's the portfolio</h1> -->
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#blog">Blog & Hobby</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
-header {
-    background-color: #333;
-    color: #fff;
-    padding: 1rem 0;
-    text-align: center;
-}
+    <section id="about">
+        <div class="about-container">
+            <div class="photo">
+                <img src="profile.jpg" alt="Your Photo">
+            </div>
+            <div class="about">
+                <h2><b>PIYUSH GUPTA</b></h2>
+                <p><b>Hi :)</b></p>
+            </div>
+        </div>
+        
+    </section>
 
-header h1 {
-    margin: 0;
-}
+    <section id="experience">
+        <h2>Experiences</h2>
+        <h3>Global Volunteer at AIESEC</h3>
+        <p>For the summer of 2024, I volunteered at a pagoda in Vietnam, where my job was to teah english to the monk kids. Little did i know that i am going to have one of best moments of my life. It's not that I got to explore vietnam and got introduced to the vietnames culture(really both were great, there culture is so rich and healthy) it's that i got to meet THE BEST PEOPLE. and they are my best friends now.</p>
+        <p>THE BEST SUMMER :)</p>
+        <div class="slideshow">
+            <img src="1v.jpg" alt="Photo 1">
+            <img src="2v.jpg" alt="Photo 2">
+            <img src="3v.jpg" alt="Photo 3">
+            <img src="4v.jpg" alt="Photo 4">
+            <img src="5v.jpg" alt="Photo 5">
+            <img src="6v.jpg" alt="Photo 6">
+            <img src="7v.jpg" alt="Photo 7">
+            <img src="8c.jpg" alt="Photo 8">
+        </div>
+    </section>
 
-nav ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-}
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project-item" data-id="0">
+                <h3>This website :)</h3>
+                <div class = "details">
+                <li>Created a portfolio website</li>
+                <p><b>Skills:</b> Web Development · HTML · CSS · Javascript</p>
+                </div>
+            </div>
+            <div class="project-item" data-id="1">
+                <h3>Review Analysis</h3>
+                <div class="details">
+                <li>Trained a machine learning model for sentiment analysis of reviews, achieving 86-88% accuracy.</li>
+                <li>Leveraged data preprocessing and feature extraction techniques to enhance model performance by 16%.</li>
+                <li>Ensured efficient and accurate sentiment classification.</li>
+                <li>Demonstrated the power of machine learning to extract actionable insights from unstructured data.</li>
+                <li>Highlighted potential applications in customer feedback analysis and product improvement.</li>
+                <p><b>Skills:</b> Machine Learning · Python (Programming Language) · Artificial Intelligence (AI)</p>
+                </div>
+            </div>
+            <div class="project-item" data-id="1">
+                <h3>Mess Management System</h3>
+                <div class="details">
+                <li>Created a system to minimize food wastage by allowing students to register meal preferences in advance, improving meal planning and reducing surplus.</li>
+                <li>Integrated real-time waste tracking tools, optimizing resource usage by 18%.</li>
+                <li>Digitized records and provided insightful analytics to ensure a sustainable approach to mess operations</li>
+                <li>Focused on efficiency, transparency, and environmental impact in mess management.</li>
+                <p><b>Skills:</b> Front-End Development · Android Development · Flutter</p>
+                </div>
+            </div>
+            <div class="project-item" data-id="3">
+                <h3>Waste Management System</h3>
+                <div class="details">
+                <li>Designed and implemented a comprehensive waste management solution to streamline operations and reduce waste generation.</li>
+                <li>Integrated real-time waste tracking, efficient resource allocation, and reporting tools to provide actionable insights for waste reduction.</li>
+                <li>Digitized records and automated key processes, significantly improving operational efficiency.</li>
+                <li>Contributed to a more sustainable and eco-friendly approach to waste management.</li>
+                <p><b>Skills:</b> SQL · PL/SQL · Database Management System (DBMS) · Databases · Oracle Database</p>
+                </div>
+            </div>
+            <div class="project-item" data-id="4">
+                <h3>Palm Detection</h3>
+                <div class="details">
+                <li>Developed an algorithm to process visual data for precise identification and detection of palm shapes and movements, achieving 92% accuracy.</li>
+                <li>Enabled the system to simultaneously track the motion of up to five palms, providing real-time monitoring and analysis of hand movements.</li>
+                <li>Designed for applications such as gesture recognition and human-computer interaction.</li>
+                <li>Showcased the potential of computer vision to enhance user experiences.</li>
+                <p><b>Skills:</b> OpenCV · Python (Programming Language) · Programming Languages</p>
+                </div>
+            </div>
+            <div class="project-item" data-id="5">
+                <h3>Mausam</h3>
+                <div class="details">
+                <li>Designed an app to deliver real-time weather updates, refreshing frequently for accurate and up-to-date information.</li>
+                <li>Features an interactive dashboard displaying temperature, wind speed, humidity, and air quality.</li>
+                <li>Fostered strong user engagement with a clean, user-friendly interface.</li>
+                <li>Makes weather insights accessible and actionable for users.</li>
+                <p><b>Skills:</b> Kotlin · Android Studio · Android Development · Android</p>
+                </div>
+            </div>
+            <div class="project-item" data-id="6">
+                <h3>Junk File Organizer</h3>
+                <div class="details">
+                <li>Developed an automated system for classifying and segregating files based on their extensions, achieving 100% accuracy.</li>
+                <li>Streamlined the organization process, reducing data retrieval time by 40%.</li>
+                <li>Enhanced overall file management efficiency by 75%.</li>
+                <li>Simplified file management by providing a systematic and intuitive approach to organizing digital data.</li>
+                <li>Designed to be highly scalable and adaptable to various use cases.</li>
+                <p><b>Skills:</b> Python (Programming Language) · Programming Languages</p>
+                </div>
+            </div>
+            <!-- <div class="project-details" id="project-details">
+                <p>jydhgrsxngxrnhx</p>
+            </div> -->
+        </div>
+    </section>
 
-nav ul li {
-    display: inline;
-}
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li><b>Programming Languages:</b>
 
-nav ul li a {
-    text-decoration: none;
-    color: #fff;
-}
+                <ul>C · C++ · Python · R · MATLAB</ul>
+            </li>
+            <li><b>Development:</b>
+                <ul>HTML · CSS · Javascript</ul>
+                <ul>Database: MySQL</ul>
+                <ul>Version Control: Git · Github</ul>
+            </li>
+            <li><b>Mobile Development</b>
+                <ul>Flutter</ul>
+            </li>
+            <li><b>Machine Learning & AI</b>
+                <ul>Nympy · Pandas</ul>
+                <ul>Scikit-learn · Pytorch · TensorFlow</ul>
+                <ul>NLP</ul>
+                <ul>Open CV</ul>
+            </li>
+            <li><b>Data Structures & Algrorithm · Object Oriented Programming</b></li>
+            <li><b>Soft Skills</b></li>
+            <ul>Problem-solving · Communication · Collaboration</ul>
 
-/* .about-container {
-    display: flex;
-    padding: 2rem;
-    gap: 2rem;
-    align-items: flex-start;
-} */
+        </ul>
+    </section>
 
-.about-container {
-    background-image: url(top1.jpg);
-    background-size: cover;
-    /* background-position: center; */
-    /* color: white; */
-    display: flex; /* Align photo and about section horizontally */
-    align-items: center; /* Center items vertically */
-    /* background-color: #72584777  */
-    padding: 2rem; /* Add spacing inside the container */
-    border-radius: 10px; /* Optional: Add rounded corners */
-    margin: 1rem 0; /* Add spacing around the container */
-}
-
-.photo {
-    width: 40%;
-    text-align: center;
-    padding: 1rem;
-    border-radius: 5px;
-}
-
-.photo img {
-    margin: 5rem;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    margin-right: 2rem;
-}
-
-/* .photo img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-} */
-
-.about-content {
-    width: 60%;
-    padding: 1rem;
-    border-radius: 5px;
-}
+    
 
 
-.about {
-    flex: 1;
-    margin-left: 5rem;
-    color: #00f492;
-}
+    <section id="resume">
+        <h2>Resume</h2>
+        <a href="Piyush_Gupta.pdf" download>Download Resume</a>
+    </section>
 
-.about h2 {
-    margin-bottom: 1rem;
-}
+    <section id="blog">
+        <h2>Blog & Hobby</h2>
+        <div class="blog-container">
+            <div class="instagram-profile">
+                <a href="https://www.instagram.com/chocolate_brownieeee?igsh=M2V1MG1vN3Q2bXRo" target="_blank">@chocolate_brownieeee</a>
+            </div>
+            <!-- <p></p> -->
+            <div class="slideshow">
+                <img src="1.jpg" alt="Photo 1">
+                <img src="2.jpg" alt="Photo 2">
+                <img src="3.jpg" alt="Photo 3">
+                <img src="4.jpg" alt="Photo 4">
+                <img src="5.jpg" alt="Photo 5">
+                <img src="6.jpg" alt="Photo 6">
+                <img src="7.jpg" alt="Photo 7">
+            </div>
+            
+        </div>
+    </section>
 
-.about p {
-    line-height: 1.6; /* Improve readability of the text */
-}
+    <section id="contact">
+        <h2>Contact</h2>
+        <ul>
+            <li>Instagram: <a href="https://www.instagram.com/g_piyush16?igsh=eGw4aG92b24xdm1q" target="_blank">@g_piyush16</a></li>
+            <li>Email: <a href="mailto:piyushji16.com">piyushji16.com</a></li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/guptapiyush16" target="_blank">Piyush Gupta</a></li>
+        </ul>
+    </section>
 
-/* .projects-container {
-    padding: 1rem;
-} */
+    <footer>
+        <p>&copy; 2025 Piyush. All rights reserved.</p>
+    </footer>
 
-/* .project-item {
-    background-color: #11111180;
-    border-style: solid;
-    border-width: #ffffff;
-    border-width:2px;
-    border-radius: 10px;
-    margin: 1rem 0;
-    padding: 1rem;
-    cursor: pointer; */
-    /* transition: background-color 0.3s ease;
-} 
-*/
-
-/* .project-item:hover {
-    background-color: #ccc;
-} */
-
-/* #project-details {
-    display: none;
-    padding: 1rem;
-    background-color: #f4f4f4;
-    border-radius: 5px;
-} 
-*/
-
-.project-item {
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    margin: 10px 0;
-    background-color: #ffffff;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    transition: box-shadow 0.3s ease;
-  }
-
-  .project-item:hover {
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
-  }
-
-  .project-item h3 {
-    margin: 0;
-    padding: 15px;
-    background-color: #24394ef0;
-    color: #ffffff;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
-
-  .project-item h3:hover {
-    background-color: #3700b3;
-  }
-
-  .details {
-    max-height: 0;
-    overflow: hidden;
-    padding: 0 15px;
-    background-color: #f8f9fa;
-    border-top: 1px solid #ccc;
-    color: #333;
-    transition: max-height 0.5s ease, padding 0.5s ease;
-  }
-
-  .project-item.active .details {
-    max-height: 200px; /* Adjust this value depending on the content */
-    padding: 15px;
-  }
-
-  .details p {
-    margin: 5px 0;
-  }
-
-.skills ul {
-    list-style: none;
-    padding: none;
-}
-
-/* .skills ul li ul{
-    padding-top: 1rem;
-} */
-
-.experience-photos {
-    margin-top: 1rem;
-}
-
-.blog-container {
-    padding: 2rem;
-}
-
-/* .slideshow {
-    display: flex;
-    overflow-x: auto;
-    gap: 1rem;
-}
-
-.slideshow img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-} */
-
-.slideshow {
-    display: flex;
-    overflow-x: auto;
-    gap: 1rem;
-    padding: 1rem;
-}
-
-.slideshow img {
-    width: 300px; /* Set a uniform width */
-    height: 200px; /* Set a uniform height */
-    object-fit: cover; /* Ensures the image fills the dimensions without distortion */
-    border-radius: 5px; /* Optional: rounded corners */
-    flex-shrink: 0; /* Prevent images from shrinking */
-}
-
-.contact ul {
-    list-style: none;
-    padding: 0;
-}
-
-.contact ul li {
-    margin: 0.5rem 0;
-}
-
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 1rem 0;
-}
+    <script src="script.js"></script>
+</body>
+</html>
