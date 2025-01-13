@@ -51,7 +51,7 @@ nav ul li a {
 } */
 
 .about-container {
-    background-image: url(1c.jpg);
+    background-image: url(top1.jpg);
     background-size: cover;
     /* background-position: center; */
     /* color: white; */
@@ -71,9 +71,9 @@ nav ul li a {
 }
 
 .photo img {
-    margin-top: 5rem;
-    width: 150px;
-    height: 150px;
+    margin: 5rem;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
     margin-right: 2rem;
 }
