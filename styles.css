@@ -1,5 +1,6 @@
 *{
     border: #fdfdfd;
+    /* box-sizing: border-box; */
 }
 body {
     background-image: url(back3.jpeg);
@@ -32,6 +33,7 @@ nav ul {
     display: flex;
     justify-content: center;
     gap: 1rem;
+    flex-wrap: wrap;
 }
 
 nav ul li {
@@ -56,6 +58,7 @@ nav ul li a {
     /* background-position: center; */
     /* color: white; */
     display: flex; /* Align photo and about section horizontally */
+    flex-wrap: wrap;
     align-items: center; /* Center items vertically */
     /* background-color: #72584777  */
     padding: 2rem; /* Add spacing inside the container */
@@ -65,17 +68,19 @@ nav ul li a {
 
 .photo {
     width: 40%;
+    flex: 1;
     text-align: center;
     padding: 1rem;
-    border-radius: 5px;
+    /* border-radius: 5px; */
 }
 
 .photo img {
-    margin: 5rem;
-    width: 200px;
+    /* margin: 5rem; */
+    width: 100%;
+    max-width: 200px;
     height: 200px;
     border-radius: 50%;
-    margin-right: 2rem;
+    margin: 1rem auto;
 }
 
 /* .photo img {
@@ -85,14 +90,15 @@ nav ul li a {
 } */
 
 .about-content {
-    width: 60%;
+    flex: 1;
+    /* width: 60%; */
     padding: 1rem;
     border-radius: 5px;
 }
 
 
 .about {
-    flex: 1;
+    /* flex: 1; */
     margin-left: 5rem;
     color: #00f492;
 }
